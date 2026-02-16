@@ -22,6 +22,6 @@ jobs:
       - name: Run Job Search Script
         run: python job_search.py
         env:
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_FROM: ${{ tejashwini06081@gmail.com }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           EMAIL_TO:   ${{ secrets.EMAIL_TO }}
